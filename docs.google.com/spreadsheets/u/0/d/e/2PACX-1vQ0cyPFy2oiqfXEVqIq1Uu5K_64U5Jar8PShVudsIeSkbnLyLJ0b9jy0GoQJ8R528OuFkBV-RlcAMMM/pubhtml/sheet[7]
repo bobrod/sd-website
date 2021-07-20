@@ -1,0 +1,98 @@
+<!DOCTYPE html><html><head><meta name="google" content="notranslate"><meta name="viewport" content="target-densitydpi=device-dpi,user-scalable=1,minimum-scale=1,maximum-scale=2.5,initial-scale=1,width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge;"><meta name="referrer" content="strict-origin-when-cross-origin"><title>2021 MTS DRAFT - Google Drive</title><link rel="shortcut icon" href="//ssl.gstatic.com/docs/spreadsheets/favicon3.ico"><link href='/static/spreadsheets2/client/css/3751463569-waffle_k_ltr.css' type='text/css' rel='stylesheet' nonce="9JHYOLNrFWhfxvIJokHFUg"><style type="text/css" nonce="9JHYOLNrFWhfxvIJokHFUg">
+        html { overflow: visible; }
+        #sheets-viewport { overflow: auto; }
+        #sheets-viewport.widget-viewport { overflow: hidden; }
+        .grid-container { overflow: visible; background: white;}
+        .grid-table-container { overflow: visible; }
+        #top-bar {
+          margin: 0;
+          overflow: hidden;
+        }
+        #top-bar {
+          border-bottom: 1px solid #ccc;
+          padding: 6px 6px 0;
+        }
+        #doc-title { padding-bottom: 5px; }
+        #doc-title .name { font-size: 15px; }
+        #sheet-menu {
+          font-size: 13px;
+          margin: 6px 0 0;
+          padding: 0 0 5px;
+        }
+        #sheet-menu li {
+          display: inline;
+          list-style-type: none;
+          margin: 0;
+          padding: 5px 8px;
+        }
+        #sheet-menu li.active {
+          background-color: #fff;
+          font-weight: bold;
+          border: 1px solid #999;
+        }
+        #top-bar #sheet-menu li.active {
+          border-bottom: 0;
+        }
+        #sheet-menu a, #sheet-menu a:visited { color: #07c; }
+        #footer {
+          background: #f0f0f0;
+          border-top: 1px #ccc solid;
+          border-bottom: 1px #ccc solid;
+          font-size: 13;
+          padding: 10px 10px;
+        }
+        .dash {
+          padding: 0 6px;
+        }
+        .ritz .waffle a { color: inherit; }.ritz .waffle .s0{border-bottom:1px SOLID #000000;background-color:#ffffff;}.ritz .waffle .s2{border-left: none;border-bottom:1px SOLID #000000;background-color:#ffffff;text-align:center;font-weight:bold;color:#000000;font-family:'Arial';font-size:14pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s8{border-right: none;background-color:#f3f3f3;text-align:left;color:#000000;font-family:'Arial';font-size:8pt;vertical-align:middle;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s9{border-left: none;border-right: none;background-color:#f3f3f3;text-align:center;color:#000000;font-family:'Arial';font-size:12pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s15{border-right: none;background-color:#f3f3f3;text-align:center;color:#000000;font-family:'Arial';font-size:8pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s1{border-left: none;border-right: none;border-bottom:1px SOLID #000000;background-color:#ffffff;text-align:center;font-weight:bold;color:#000000;font-family:'Arial';font-size:14pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s3{border-bottom:1px SOLID #000000;background-color:#ffffff;text-align:center;font-weight:bold;color:#000000;font-family:'Arial';font-size:14pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s5{background-color:#ffffff;text-align:center;color:#000000;font-family:'Arial';font-size:12pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s7{background-color:#f3f3f3;text-align:center;color:#000000;font-family:'Arial';font-size:12pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s4{background-color:#ffffff;text-align:center;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s12{border-left: none;border-right: none;background-color:#ffffff;text-align:center;color:#000000;font-family:'Arial';font-size:12pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s11{border-right: none;background-color:#ffffff;text-align:center;color:#000000;font-family:'Arial';font-size:12pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s14{border-right: none;background-color:#f3f3f3;text-align:center;color:#000000;font-family:'Arial';font-size:12pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s6{background-color:#ffffff;text-align:center;color:#000000;font-family:'Arial';font-size:8pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s10{border-left: none;background-color:#f3f3f3;text-align:center;color:#000000;font-family:'Arial';font-size:12pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s13{border-left: none;background-color:#ffffff;text-align:center;color:#000000;font-family:'Arial';font-size:12pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}</style><script type="text/javascript" nonce="HKS7G1hbRHKGg9hkvyBukA">
+        var activeSheetId;
+
+        function switchToSheet(id) {
+          if (document.getElementById('sheet-menu')) {
+            document.getElementById('sheet-button-' + activeSheetId)
+                .className = '';
+            document.getElementById('sheet-button-' + id).className = 'active';
+          }
+
+          document.getElementById(activeSheetId).style.display = 'none';
+          document.getElementById(id).style.display = '';
+          activeSheetId = id;
+
+          // posObjs() is defined in embeddedObjectJs (see EmbeddedObjectHtmlBuilder.java)
+          posObjs();
+          return false;
+        }
+        
+        function init() {
+        var optPageSwitcher;
+        
+        function resize() {
+          var optMobileWebHeader = document.getElementById('docs-ml-header-id');
+          var optTopBar = document.getElementById('top-bar');
+          var optFooter = document.getElementById('footer');
+          var sheetsViewport = document.getElementById('sheets-viewport');
+
+          if (optMobileWebHeader) {
+            sheetsViewport.style.marginTop = optMobileWebHeader.offsetHeight +
+                (optTopBar ? optTopBar.offsetHeight : 0) + 'px';
+          }
+          var adjustedHeight = window.innerHeight -
+              (optTopBar ? optTopBar.offsetHeight : 0) -
+              (optFooter ? optFooter.offsetHeight : 0);
+          var adjustedWidth = window.innerWidth;
+          sheetsViewport.style.width = (adjustedWidth + 'px');
+          sheetsViewport.style.height = (adjustedHeight + 'px');
+          if (optPageSwitcher) {
+            optPageSwitcher.resize(adjustedWidth, adjustedHeight);
+          }
+        }
+        resize();
+        window.onresize = resize;
+        var currentUrl = window.location.href;
+        var newUrl = currentUrl.replace('?sle=true&', '?');
+        newUrl = newUrl.replace('?sle=true', '');
+        newUrl = newUrl.replace('&sle=true&', '&');
+        newUrl = newUrl.replace('&sle=true', '');
+        window.history.replaceState(null, '', newUrl);
+        }
+        </script><script nonce="HKS7G1hbRHKGg9hkvyBukA">_docs_flag_initialData={"docs-mwid":false,"docs-smheo":false,"info_params":{"token":"AC4w5Vii9_MZTwzRO2qTA8f_rmawWOlWzA:1626814161505","includes_info_params":true},"ilcm":{"eui":"ADFN-cuzv5JJ2UQfALPowzNDn2hGh2CVXvE0016krgqTvaeFUPpyegwwIB-cbqgn8wKxERuNFSbd","je":1,"sstu":1626814161507000,"si":"CMKl2YHD8vECFQshCAUdtikOqg","gsc":4,"ei":[5741523,5710645,5730867,5700422,5711550,5700057,5731094,5708568,5720595,5700446,5716028,5741579,5716149,5706069,5707047,5700103,5719418,5707385,5707986,5739152,5711765,5706270,5723365,5731174,5717949,5741734,5705299,5710692,5701034,5702912,5726190,5741775,5712913,5710893,5703028,5729072,5714550,5727042,5704641,5711769,5711957,5711012,5706133,5722409,5739036,5714330,5724533,5710933,5712373,5736924,5735806,5703186,5709476,5720714,5712298,5728807,5725338,5734994,5715515,5705777,5727257,5715364,5716416,5723284,5725742,5733973,5719212,5737357,5713597,5721764,5713542,5726438,5707945,5711808,5705649,5702785,5737897,5706169,5712469,5728945,5703762,5704621,5737700,5714967,5715824,5712211,5722346,5703259,5709447,5740247,5706601,5738168,5702766,5719527,5707657,5728103,5720483,5704581,5733710,5711230,5725511,5714839,5709357,5705041,5714628,5703839,5705891,5703837,5712352,5712909,5712477,5719535,5700884,5702936,5714796,5711708,5720060,5728475,5704144,5710637,5710938,5724085,5705493,5714322,5735630,5712473,5731014,5709746,5707856,5734632,5737254,5720925,5735509,5737421,5719462,5728567,5736243,5721361,5701650,5710542,5740048,5706751,5719482,5713605,5705223,5700333,5739837,5738081,5707204,5736145,5712525,5716457,5703182,5706786,5707711,5721004,5722301,5714961,5711471,5713191,5702445,5708974,5720788,5707445,5726595,5714310,5708480,5719531,5730285,5705581,5738433,5729206,5725300,5730290,5703815,5706661,5721344,5711889,5711297,5731135,5720487,5735281,5713195,5711826,5700019,5734352,5715637,5713227,5701903,5722567,5709892,5706933,5723679,5733203,5712635,5704883,5720568,5724916,5737153,5723871,5713049,5714843,5700893,5734571,5717161,5728515,5724435,5719651,5703591,5729092,5710677,5732962,5707425,5713152,5707197,5735134,5711155,5722189,5707819,5712033,5719502,5703022,5715399,5731530,5702849,5727901,5700559,5701594,5708862,5726110,5714674,5708870,5709709,5713657,5713211,5713223,5727853,5702135,5719170,5711099,5706523,5721307,5731783,5743104,5713207,5714326,5715246,5725240,5708886,5715641,5713554,5707137,5712905,5711685,5721814,5717118,5700579,5720479,5710746,5727624,5709661,5703913,5727063,5735670,5704063,5711850,5739056,5713681,5724896,5717070,5711523,5722370,5706007,5713333,5731412,5709085,5716145,5712929,5733570,13702623,5739551,5720516,5738413,5707609,5721012,5725052,5709381],"crc":1,"cvi":[3300114,3300132,3300164,3313321,3319883,3330080,3340588,3340636,3340656,3341363,3341470,3341556]},"drive_url":"//drive.google.com/u/0?usp\u003dsheets_web","docs-ehr":true,"docs-sup":"/spreadsheets/u/0"}; _docs_flag_cek='EnM1cDSCMKRLIt6KvN4qpQ\x3d\x3d'; if (window['DOCS_timing']) {DOCS_timing['ifdld']=new Date().getTime();}</script></head><script nonce="HKS7G1hbRHKGg9hkvyBukA">document.addEventListener('DOMContentLoaded', init);</script><body class="docs-gm"><div id="sheets-viewport"><div id="2081114537" style="display:none;position:relative;" dir="ltr"><div class="ritz grid-container" dir="ltr"><table class="waffle no-grid" cellspacing="0" cellpadding="0"><thead><tr><th class="row-header freezebar-origin-ltr header-shim row-header-shim"></th><th id="2081114537C0" style="width:50px;" class="header-shim"></th><th id="2081114537C1" style="width:100px;" class="header-shim"></th><th id="2081114537C2" style="width:100px;" class="header-shim"></th><th id="2081114537C3" style="width:130px;" class="header-shim"></th><th id="2081114537C4" style="width:100px;" class="header-shim"></th><th id="2081114537C5" style="width:100px;" class="header-shim"></th><th id="2081114537C6" style="width:100px;" class="header-shim"></th><th id="2081114537C7" style="width:100px;" class="header-shim"></th></tr></thead><tbody><tr style="height: 20px"><th id="2081114537R0" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">1</div></th><td></td><td class="s0"></td><td class="s0"></td><td class="s0"></td><td class="s0"></td><td class="s0"></td><td class="s0"></td><td class="s0"></td></tr><tr style="height: 20px"><th id="2081114537R1" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">2</div></th><td></td><td class="s1 softmerge" dir="ltr"><div class="softmerge-inner" style="width:212px;left:-15px">PICK (OVR)</div></td><td class="s2"></td><td class="s2" dir="ltr">FACTION</td><td class="s3"></td><td class="s3" dir="ltr">PLAYER</td><td class="s3"></td><td class="s3" dir="ltr">LEAGUE</td></tr><tr style="height: 20px"><th id="2081114537R2" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">3</div></th><td></td><td class="s4" dir="ltr"></td><td class="s4"></td><td class="s4" dir="ltr"></td><td class="s4"></td><td class="s4" dir="ltr"></td><td class="s4"></td><td class="s4" dir="ltr"></td></tr><tr style="height: 20px"><th id="2081114537R3" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">4</div></th><td></td><td class="s5" dir="ltr">1 (58)</td><td class="s5"></td><td class="s5" dir="ltr">Korruption</td><td class="s6" dir="ltr"></td><td class="s5" dir="ltr">James White</td><td class="s5"></td><td class="s5" dir="ltr">SNG</td></tr><tr style="height: 20px"><th id="2081114537R4" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">5</div></th><td></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td></tr><tr style="height: 20px"><th id="2081114537R5" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">6</div></th><td></td><td class="s7" dir="ltr">2 (59)</td><td class="s7"></td><td class="s7" dir="ltr">SWAG</td><td class="s8" dir="ltr"></td><td class="s9 softmerge" dir="ltr"><div class="softmerge-inner" style="width:219px;left:-22px">Bradley Tingle (R)</div></td><td class="s10"></td><td class="s10" dir="ltr">SNG</td></tr><tr style="height: 20px"><th id="2081114537R6" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">7</div></th><td></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td></tr><tr style="height: 20px"><th id="2081114537R7" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">8</div></th><td></td><td class="s5" dir="ltr">3 (60)</td><td class="s5"></td><td class="s5" dir="ltr">The Stars</td><td class="s11"></td><td class="s12 softmerge" dir="ltr"><div class="softmerge-inner" style="width:206px;left:-9px">Britney Young</div></td><td class="s13"></td><td class="s13" dir="ltr">SNG</td></tr><tr style="height: 20px"><th id="2081114537R8" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">9</div></th><td></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td></tr><tr style="height: 20px"><th id="2081114537R9" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">10</div></th><td></td><td class="s7" dir="ltr">4 (61)</td><td class="s14"></td><td class="s9 softmerge" dir="ltr"><div class="softmerge-inner" style="width:240px;left:-13px">Finstock Exchange</div></td><td class="s9"></td><td class="s9 softmerge" dir="ltr"><div class="softmerge-inner" style="width:233px;left:-36px">Kim Taylor-Foster (R)</div></td><td class="s10"></td><td class="s10" dir="ltr">SNG</td></tr><tr style="height: 20px"><th id="2081114537R10" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">11</div></th><td></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td></tr><tr style="height: 20px"><th id="2081114537R11" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">12</div></th><td></td><td class="s5" dir="ltr">5 (62)</td><td class="s5"></td><td class="s5" dir="ltr">Quirky Mercs</td><td class="s11"></td><td class="s12 softmerge" dir="ltr"><div class="softmerge-inner" style="width:214px;left:-17px">Sabrina Ramirez</div></td><td class="s13"></td><td class="s13" dir="ltr">SNG</td></tr><tr style="height: 20px"><th id="2081114537R12" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">13</div></th><td></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td></tr><tr style="height: 20px"><th id="2081114537R13" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">14</div></th><td></td><td class="s7" dir="ltr">6 (63)</td><td class="s7"></td><td class="s7" dir="ltr">The Den</td><td class="s15" dir="ltr"></td><td class="s9 softmerge" dir="ltr"><div class="softmerge-inner" style="width:215px;left:-18px">Rachel Silvestrini</div></td><td class="s10"></td><td class="s10" dir="ltr">SNG</td></tr><tr style="height: 20px"><th id="2081114537R14" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">15</div></th><td></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td></tr><tr style="height: 20px"><th id="2081114537R15" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">16</div></th><td></td><td class="s5" dir="ltr">7 (64)</td><td class="s5"></td><td class="s5" dir="ltr">Usual Suspects</td><td class="s11"></td><td class="s12 softmerge" dir="ltr"><div class="softmerge-inner" style="width:224px;left:-27px">Nikki Dimalanta (R)</div></td><td class="s13"></td><td class="s13" dir="ltr">SW</td></tr><tr style="height: 20px"><th id="2081114537R16" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">17</div></th><td></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td><td class="s5"></td></tr><tr style="height: 20px"><th id="2081114537R17" style="height: 20px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 20px">18</div></th><td></td><td class="s7" dir="ltr">8 (65)</td><td class="s7"></td><td class="s7" dir="ltr">The Dungeon</td><td class="s14"></td><td class="s9 softmerge" dir="ltr"><div class="softmerge-inner" style="width:224px;left:-27px">John Flickenger (R)</div></td><td class="s10"></td><td class="s10" dir="ltr">SNG</td></tr></tbody></table></div></div></div><script type="text/javascript" nonce="HKS7G1hbRHKGg9hkvyBukA">activeSheetId = '2081114537'; switchToSheet('2081114537');</script></body></html>
